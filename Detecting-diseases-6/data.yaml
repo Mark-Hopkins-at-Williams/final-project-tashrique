@@ -1,0 +1,23 @@
+names:
+- Beans_Angular_LeafSpot
+- Beans_Rust
+- Strawberry_Angular_LeafSpot
+- Strawberry_Anthracnose_Fruit_Rot
+- Strawberry_Blossom_Blight
+- Strawberry_Gray_Mold
+- Strawberry_Leaf_Spot
+- Strawberry_Powdery_Mildew_Fruit
+- Strawberry_Powdery_Mildew_Leaf
+- Tomato_Blight
+- Tomato_Leaf_Mold
+- Tomato_Spider_Mites
+nc: 12
+roboflow:
+  license: CC BY 4.0
+  project: detecting-diseases
+  url: https://universe.roboflow.com/artificial-intelligence-82oex/detecting-diseases/dataset/6
+  version: 6
+  workspace: artificial-intelligence-82oex
+test: ../test/images
+train: Detecting-diseases-6/train/images
+val: Detecting-diseases-6/valid/images
